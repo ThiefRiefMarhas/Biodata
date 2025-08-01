@@ -1,0 +1,177 @@
+[
+  {
+    "hero_name": "Invoker",
+    "primary_attribute": "Intelligence",
+    "roles": ["Carry", "Nuker", "Disabler", "Escape", "Pusher"],
+    "description": "Invoker adalah hero kompleks yang memiliki 10 spell berbeda berdasarkan kombinasi dari tiga elemen: Quas, Wex, dan Exort. Memerlukan kontrol cepat dan pengetahuan luas terhadap kombinasi skill.",
+    "skills": [
+      {
+        "name": "Quas",
+        "type": "Passive",
+        "description": "Memberikan regenerasi HP dan digunakan dalam kombinasi spell."
+      },
+      {
+        "name": "Wex",
+        "type": "Passive",
+        "description": "Menambah attack speed dan movement speed. Digunakan untuk spell yang fokus pada kecepatan dan efek kontrol."
+      },
+      {
+        "name": "Exort",
+        "type": "Passive",
+        "description": "Meningkatkan damage serangan dan spell yang berfokus pada burst damage."
+      },
+      {
+        "name": "Invoke",
+        "type": "Active",
+        "description": "Mengaktifkan salah satu dari 10 spell berdasarkan kombinasi dari Quas/Wex/Exort."
+      }
+    ],
+    "notable_spells": ["Sun Strike", "EMP", "Tornado", "Chaos Meteor"],
+    "tips": [
+      "Gunakan combo Tornado + EMP untuk menguras mana musuh.",
+      "Sun Strike bisa digunakan global, perhatikan map saat war.",
+      "Wajib hafal kombinasi spell untuk bermain efektif."
+    ]
+  },
+  {
+    "hero_name": "Axe",
+    "primary_attribute": "Strength",
+    "roles": ["Initiator", "Durable", "Disabler", "Jungler"],
+    "description": "Axe adalah tank inisiator yang mengandalkan taunt dan kecepatan serangan musuh untuk menyerang balik dengan damage area.",
+    "skills": [
+      {
+        "name": "Berserker's Call",
+        "type": "Active",
+        "description": "Membuat musuh di sekitar menyerang Axe dan memberikan armor bonus pada Axe."
+      },
+      {
+        "name": "Battle Hunger",
+        "type": "Active",
+        "description": "Memberi damage-over-time dan memperlambat musuh jika mereka tidak membunuh unit."
+      },
+      {
+        "name": "Counter Helix",
+        "type": "Passive",
+        "description": "Axe akan memutar dan memberikan damage area saat diserang."
+      },
+      {
+        "name": "Culling Blade",
+        "type": "Ultimate",
+        "description": "Menghabisi musuh di bawah HP threshold, dan memberikan bonus speed pada tim di sekitar."
+      }
+    ],
+    "notable_spells": ["Berserker's Call", "Culling Blade"],
+    "tips": [
+      "Gunakan Blink Dagger untuk inisiasi dengan Berserker’s Call.",
+      "Culling Blade bisa tembus BKB (jika HP musuh di bawah threshold).",
+      "Bagus sebagai offlaner atau jungler awal game."
+    ]
+  },
+  {
+    "hero_name": "Phantom Assassin",
+    "primary_attribute": "Agility",
+    "roles": ["Carry", "Escape"],
+    "description": "Phantom Assassin (PA) adalah carry yang mengandalkan critical hit dan evasion untuk membunuh musuh dengan cepat.",
+    "skills": [
+      {
+        "name": "Stifling Dagger",
+        "type": "Active",
+        "description": "Lemparan dagger yang memberikan slow dan damage berdasarkan bonus attack PA."
+      },
+      {
+        "name": "Phantom Strike",
+        "type": "Active",
+        "description": "Melompat ke target dan memberikan bonus attack speed."
+      },
+      {
+        "name": "Blur",
+        "type": "Passive/Active",
+        "description": "Memberikan evasion, bisa aktif untuk menyembunyikan PA dari mini-map."
+      },
+      {
+        "name": "Coup de Grace",
+        "type": "Passive",
+        "description": "Critical hit besar dengan kemungkinan tertentu."
+      }
+    ],
+    "notable_spells": ["Coup de Grace", "Phantom Strike"],
+    "tips": [
+      "Build item damage seperti Battle Fury, Desolator, dan Satanic.",
+      "Blur efektif untuk farming aman atau menyelinap ke belakang musuh.",
+      "Waspadai disable keras karena PA sangat rapuh saat terkena stun."
+    ]
+  },
+  {
+    "hero_name": "Crystal Maiden",
+    "primary_attribute": "Intelligence",
+    "roles": ["Support", "Disabler", "Nuker"],
+    "description": "Crystal Maiden adalah support dengan banyak disable dan aura mana yang berguna untuk seluruh tim.",
+    "skills": [
+      {
+        "name": "Crystal Nova",
+        "type": "Active",
+        "description": "Ledakan es yang melambatkan gerakan dan kecepatan serang musuh."
+      },
+      {
+        "name": "Frostbite",
+        "type": "Active",
+        "description": "Membekukan musuh di tempat dan memberikan damage periodik."
+      },
+      {
+        "name": "Arcane Aura",
+        "type": "Passive",
+        "description": "Memberi regenerasi mana ke seluruh tim secara global."
+      },
+      {
+        "name": "Freezing Field",
+        "type": "Ultimate",
+        "description": "AoE besar dengan ledakan es acak, memberikan damage besar dan slow."
+      }
+    ],
+    "notable_spells": ["Frostbite", "Freezing Field"],
+    "tips": [
+      "Selalu aktifkan Arcane Aura untuk bantu tim.",
+      "Freezing Field sangat kuat, tapi rentan diganggu. Gunakan di semak-semak atau dengan item seperti Glimmer Cape/BKB.",
+      "Frostbite efektif untuk menghentikan channeling."
+    ]
+  },
+  {
+    "hero_name": "Pudge",
+    "primary_attribute": "Strength",
+    "roles": ["Disabler", "Initiator", "Tank", "Nuker"],
+    "description": "Pudge adalah hero ikonik Dota 2 dengan kemampuan hook musuh dari jarak jauh dan memberikan kontrol tinggi dengan HP besar.",
+    "skills": [
+      {
+        "name": "Meat Hook",
+        "type": "Active",
+        "description": "Mengait target musuh dan menarik mereka ke arah Pudge sambil memberikan damage besar."
+      },
+      {
+        "name": "Rot",
+        "type": "Toggle",
+        "description": "Memberikan damage area di sekitar Pudge serta slow, tapi juga menyakiti dirinya sendiri."
+      },
+      {
+        "name": "Flesh Heap",
+        "type": "Passive",
+        "description": "Memberikan magic resistance dan stack permanent strength untuk setiap kill."
+      },
+      {
+        "name": "Dismember",
+        "type": "Active",
+        "description": "Menyantap target, membuat mereka disable sambil memberikan damage per detik dan heal ke Pudge."
+      }
+    ],
+    "notable_spells": ["Meat Hook", "Dismember"],
+    "tips": [
+      "Latih presisi Meat Hook untuk memulai gank.",
+      "Gunakan Rot + Dismember untuk kill cepat.",
+      "Flesh Heap membuat Pudge semakin kuat seiring banyaknya kill/assist."
+    ]
+  }
+]
+
+
+
+
+
